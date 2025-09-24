@@ -139,20 +139,20 @@
     <div class="toc">
         <h3>Table of Contents</h3>
         <ul>
-            <li><a href="file:///C:/Users/dgriff06/pitch_deception_index/PDI_Master_Final_Report.html#methodology">1. Methodology &amp; Model Architecture</a></li>
-            <li><a href="file:///C:/Users/dgriff06/pitch_deception_index/PDI_Master_Final_Report.html#data-validation">2. Data Validation &amp; Quality</a></li>
-            <li><a href="file:///C:/Users/dgriff06/pitch_deception_index/PDI_Master_Final_Report.html#model-performance">3. Model Performance &amp; Validation</a></li>
-            <li><a href="file:///C:/Users/dgriff06/pitch_deception_index/PDI_Master_Final_Report.html#engineered-features">4. Engineered Features &amp; PDI Calculation</a></li>
-            <li><a href="file:///C:/Users/dgriff06/pitch_deception_index/PDI_Master_Final_Report.html#statistical-results">5. Statistical Results &amp; Significance</a></li>
-            <li><a href="file:///C:/Users/dgriff06/pitch_deception_index/PDI_Master_Final_Report.html#reliability-stickiness">6. Reliability &amp; Stickiness Analysis</a></li>
-            <li><a href="file:///C:/Users/dgriff06/pitch_deception_index/PDI_Master_Final_Report.html#distributions">7. PDI Distributions &amp; Player Leaderboards</a></li>
-            <li><a href="file:///C:/Users/dgriff06/pitch_deception_index/PDI_Master_Final_Report.html#outcome-correlations">8. Outcome Correlations &amp; Model Performance</a></li>
-            <li><a href="file:///C:/Users/dgriff06/pitch_deception_index/PDI_Master_Final_Report.html#pitch-categorization">9. Pitch Categorization &amp; Deception Classification</a></li>
-            <li><a href="file:///C:/Users/dgriff06/pitch_deception_index/PDI_Master_Final_Report.html#visualizations">10. Key Visualizations</a></li>
-            <li><a href="file:///C:/Users/dgriff06/pitch_deception_index/PDI_Master_Final_Report.html#batter-analysis">11. Batter-Level Deception Impact</a></li>
-            <li><a href="file:///C:/Users/dgriff06/pitch_deception_index/PDI_Master_Final_Report.html#insights">12. PDI Validity, Performance Impact &amp; Team Applications</a></li>
-            <li><a href="file:///C:/Users/dgriff06/pitch_deception_index/PDI_Master_Final_Report.html#limitations">13. Limitations &amp; Future Work</a></li>
-            <li><a href="file:///C:/Users/dgriff06/pitch_deception_index/PDI_Master_Final_Report.html#why-pdi-wins">14. Why PDI Wins: The Complete Case</a></li>
+            <li><a href="#methodology">1. Methodology &amp; Model Architecture</a></li>
+            <li><a href="#data-validation">2. Data Validation &amp; Quality</a></li>
+            <li><a href="#model-performance">3. Model Performance &amp; Validation</a></li>
+            <li><a href="#engineered-features">4. Engineered Features &amp; PDI Calculation</a></li>
+            <li><a href="#statistical-results">5. Statistical Results &amp; Significance</a></li>
+            <li><a href="#reliability-stickiness">6. Reliability &amp; Stickiness Analysis</a></li>
+            <li><a href="#distributions">7. PDI Distributions &amp; Player Leaderboards</a></li>
+            <li><a href="#outcome-correlations">8. Outcome Correlations &amp; Model Performance</a></li>
+            <li><a href="#pitch-categorization">9. Pitch Categorization &amp; Deception Classification</a></li>
+            <li><a href="#visualizations">10. Key Visualizations</a></li>
+            <li><a href="#batter-analysis">11. Batter-Level Deception Impact</a></li>
+            <li><a href="#insights">12. PDI Validity, Performance Impact &amp; Team Applications</a></li>
+            <li><a href="#limitations">13. Limitations &amp; Future Work</a></li>
+            <li><a href="#why-pdi-wins">14. Why PDI Wins: The Complete Case</a></li>
         </ul>
     </div>
 
@@ -445,12 +445,12 @@ Late_Divergence = Plate location delta + movement delta + speed delta + pitch-ty
     </div>
 
     <div class="figure">
-        <img src="./PDI Master Final Report - Comprehensive Analysis_files/fig_calibration_plots.png" alt="Calibration Plots">
+        <img src="assets/images/fig_calibration_plots.png" alt="Calibration Plots">
         <div class="figure-caption">Figure 6: Calibration plots showing predicted vs observed whiff and chase rates across PDI deciles</div>
     </div>
 
     <div class="figure">
-        <img src="./PDI Master Final Report - Comprehensive Analysis_files/fig_embedding_umap.png" alt="UMAP Embedding Space">
+        <img src="assets/images/fig_embedding_umap.png" alt="UMAP Embedding Space">
         <div class="figure-caption">Figure 7: UMAP visualization of learned embedding space colored by deception level (left) vs pitcher ID (right), proving the model learned deception patterns rather than pitcher identity</div>
     </div>
 
@@ -662,7 +662,7 @@ PDI = 100 * (0.6 * early_sim + 0.4 * late_div)
     </div>
 
     <div class="figure">
-        <img src="./PDI Master Final Report - Comprehensive Analysis_files/fig_threshold_comparison.png" alt="Threshold Comparison">
+        <img src="assets/images/fig_threshold_comparison.png" alt="Threshold Comparison">
         <div class="figure-caption">Figure 3: Comparison of outcomes between deceptive (75th percentile) and non-deceptive (25th percentile) pitch pairs</div>
     </div>
 
@@ -875,7 +875,7 @@ PDI = 100 * (0.6 * early_sim + 0.4 * late_div)
     </div>
 
     <div class="figure">
-        <img src="./PDI Master Final Report - Comprehensive Analysis_files/fig_decile_outcomes.png" alt="Decile Outcome Progression">
+        <img src="assets/images/fig_decile_outcomes.png" alt="Decile Outcome Progression">
         <div class="figure-caption">Figure 4: Smooth monotonic progression of whiff and chase rates across PDI deciles, demonstrating clear dose-response relationship</div>
     </div>
 
@@ -883,7 +883,7 @@ PDI = 100 * (0.6 * early_sim + 0.4 * late_div)
     
     <h3>League-Wide PDI Distribution</h3>
     <div class="figure">
-        <img src="./PDI Master Final Report - Comprehensive Analysis_files/fig_pdi_league_distribution.png" alt="League PDI Distribution">
+        <img src="assets/images/fig_pdi_league_distribution.png" alt="League PDI Distribution">
         <div class="figure-caption">Figure 1: League-wide PDI distribution showing the range of deception across pitchers (minimum 200 pairs per pitcher)</div>
     </div>
     
@@ -951,7 +951,7 @@ PDI = 100 * (0.6 * early_sim + 0.4 * late_div)
     </tbody></table>
 
     <div class="figure">
-        <img src="./PDI Master Final Report - Comprehensive Analysis_files/fig_top_pairs_league.png" alt="Top Pitch Type Pairs">
+        <img src="assets/images/fig_top_pairs_league.png" alt="Top Pitch Type Pairs">
         <div class="figure-caption">Figure 2: Top 15 most deceptive pitch-type combinations ranked by PDI</div>
     </div>
 
@@ -1115,7 +1115,7 @@ PDI = 100 * (0.6 * early_sim + 0.4 * late_div)
     </div>
 
     <div class="figure">
-        <img src="./PDI Master Final Report - Comprehensive Analysis_files/fig_tunnel_case_study.png" alt="Tunnel Case Study">
+        <img src="assets/images/fig_tunnel_case_study.png" alt="Tunnel Case Study">
         <div class="figure-caption">Figure 5: Case study visualization showing release point clustering → early tunnel similarity → late plate separation for high-deception sequences</div>
     </div>
 
@@ -1185,7 +1185,7 @@ PDI = 100 * (0.6 * early_sim + 0.4 * late_div)
     </div>
 
     <div class="figure">
-        <img src="./PDI Master Final Report - Comprehensive Analysis_files/fig_feature_importance.png" alt="Feature Importance Chart">
+        <img src="assets/images/fig_feature_importance.png" alt="Feature Importance Chart">
         <div class="figure-caption">Figure 5: Feature importance ranking showing all 27 model features and their contribution to PDI prediction</div>
     </div>
 
@@ -1263,7 +1263,7 @@ PDI = 100 * (0.6 * early_sim + 0.4 * late_div)
     <p>This section contains additional visualizations that support the analysis throughout the report. Key figures are integrated into their respective sections to provide context and support the narrative flow.</p>
 
     <div class="figure">
-        <img src="./PDI Master Final Report - Comprehensive Analysis_files/fig_batter_deception_impact.png" alt="Batter Deception Impact">
+        <img src="assets/images/fig_batter_deception_impact.png" alt="Batter Deception Impact">
         <div class="figure-caption">Figure 8: Batter-level analysis showing which hitter types are most affected by deceptive sequences</div>
     </div>
 

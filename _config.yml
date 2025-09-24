@@ -1,0 +1,10 @@
+title: PDI Report - Pitcher Deception Index Analysis
+description: Comprehensive analysis of pitch deception using machine learning and MLB data
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-relative-links
+
+# GitHub Pages will serve static HTML files
+include: 
+  - "*.html"
